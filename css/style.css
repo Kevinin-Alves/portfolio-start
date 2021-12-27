@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
 
+#menuPrincipal{
+
+    background-color: #F3F3F3;
+    text-align: right;
+}
+
+#menuPrincipal li{
+
+    display: inline; 
+}
+
+----------------------------------------------------------
+
 #menu-principal{
 
     list-style: none;
@@ -16,6 +29,8 @@
 
 #menu-principal li{
     display: inline;
+    margin: auto;
+    
 }
 
 #menu-principal li a{
@@ -25,5 +40,7 @@
    font-size: 20px;
    font-style: normal;
    letter-spacing: 0px;
+   text-align: center;
+   margin: 10px;
    
 }
